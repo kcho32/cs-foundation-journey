@@ -19,6 +19,10 @@ LinkedList처럼 각 노드가 다음 노드의 주소를 가지고 있을 때, 
 
 # row-major 방식
 
-#Big O
+# Big O
 Big-O는 연산 횟수의 증가 추세를 설명하지만, 실제 성능은 메모리 접근 패턴, 캐시 효율, 객체 오버헤드, 언어 런타임 구현에 따라 달라질 수 있다.
 따라서 Array와 LinkedList의 순회는 둘 다 O(n)이지만, 실제로는 Array가 캐시 친화적이어서 더 빠른 경우가 많다.
+
+
+# ADT (Abstract Data Type)
+Stack과 Queue와 같이 메모리에 저장되는 방식이 아닌 자료를 다루는 인터페이스 (추상 자료형)
